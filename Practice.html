@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td><h1 id="r"></h1></td>
+            <td><h1 id="s"></h1></td>
+            <td><h1 id="a"></h1></td>
+            <td><h1 id="b"></h1></td>
+            <td><h1 id="d"></h1></td>
+            <td><h1 id="l"></h1></td>
+        </tr>
+    </table>
+</body>
+</html>
+<script>
+    var a = prompt("Enter Your First Name")
+    var b = prompt("Enter Your Father Name")
+    var c = prompt("Enter Your Roll Number")
+    var d = prompt("Enter Your Birth Date")
+    var e = prompt("Enter Your Email")
+    var f = prompt("Enter Your Phone Number")
+ 
+
+ document.getElementById("r").innerHTML = "My Name is " + a
+ document.getElementById("s").innerHTML = "My Father is " + b
+ document.getElementById("a").innerHTML = "My Roll Number is " + c
+ document.getElementById("b").innerHTML = "My Birth Date is " + d
+ document.getElementById("d").innerHTML = "My Email is " + e
+ document.getElementById("l").innerHTML = "My Phone Number is " + f
+</script>
